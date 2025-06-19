@@ -1,7 +1,17 @@
 header{
     text-align: center;
+    background-color: #fadcd9;
+    padding: 20px 20px 40px 20px;
+    background-image: url(images/download\ \(2\).jpeg);
+    background-size: cover;
 }
 
+header h1{
+    font-size: 50px;
+}
+ h2{
+    font-size: 30px;
+ }
 .heads {
     font-weight: bold;
 }
@@ -9,3 +19,37 @@ header{
 .right{
     text-align: right;
 }
+
+span a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #edcbd1;
+    font-family: "Nunito", sans-serif;
+}
+
+.label{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fadcd9;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    box-shadow: 0 4px 8px black;
+    transition: .label 1s ease 0.5s;
+}
+.label:hover{
+    box-shadow: 0 8px 16px black;
+}
+
+.label div{
+    
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #D8A7B1;
+}
+
